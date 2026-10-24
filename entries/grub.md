@@ -1,6 +1,6 @@
 # Grub layers
 
-## Core
+## Kernel and HAL (hardware abstraction layer)
 This is the layer that takes ready to be used, it includes achitecture-dependent code and generic-logic.  
 grub-core/kern/ (Generic microkernel logic)  
 grub-core/kern/\<platform\>/ (EFI, i386-pc, emu, coreboot)  
